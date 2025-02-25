@@ -1,0 +1,191 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-02-25 01:54+0500\n"
+"PO-Revision-Date: 2025-02-25 01:54+0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: templates/index.html:5
+msgid "Франшиза Han Tandyr"
+msgstr "Han Tandyr 特许经营"
+
+#: templates/index.html:14
+msgid "Menu"
+msgstr "菜单"
+
+#: templates/index.html:37
+msgid "Логотип Han Tandyr"
+msgstr "Han Tandyr 标志"
+
+#: templates/index.html:41
+msgid "Франшиза"
+msgstr "特许经营"
+
+#: templates/index.html:41
+msgid "Han Tandyr"
+msgstr "Han Tandyr"
+
+#: templates/index.html:44
+msgid "Откройте свою пекарню по франшизе и зарабатывайте от $36,000 в год"
+msgstr "加盟您的面包店，每年赚取至少 36,000 美元"
+
+#: templates/index.html:46 templates/index.html:147
+msgid "Оставить заявку"
+msgstr "提交申请"
+
+#: templates/index.html:64
+msgid "Han Tandyr в цифрах:"
+msgstr "Han Tandyr 数字概览："
+
+#: templates/index.html:67
+msgid "Карта Han Tandyr"
+msgstr "Han Tandyr 地图"
+
+#: templates/index.html:72
+msgid "Иконка точек сбыта"
+msgstr "销售点图标"
+
+#: templates/index.html:74
+msgid "Точек сбыта"
+msgstr "销售点数量"
+
+#: templates/index.html:78
+msgid "Иконка оборота"
+msgstr "营业额图标"
+
+#: templates/index.html:80
+msgid "Годовой оборот (USD)"
+msgstr "年营业额 (美元)"
+
+#: templates/index.html:84
+msgid "Иконка производства"
+msgstr "生产图标"
+
+#: templates/index.html:85
+msgid "Есть"
+msgstr "有"
+
+#: templates/index.html:86
+msgid "Собственное производство"
+msgstr "自有生产"
+
+#: templates/index.html:90
+msgid "Иконка халяль"
+msgstr "清真图标"
+
+#: templates/index.html:91
+msgid "Халяль"
+msgstr "清真"
+
+#: templates/index.html:92
+msgid "Продукция"
+msgstr "产品"
+
+#: templates/index.html:108
+msgid "Наша миссия"
+msgstr "我们的使命"
+
+#: templates/index.html:110
+msgid ""
+"Мы стремимся сделать Han Tandyr синонимом качественной халяльной выпечки, "
+"объединяя людей за столом и сохраняя уникальные традиции."
+msgstr "我们致力于将 Han Tandyr 打造成高品质清真烘焙的代名词，汇聚人们共聚餐桌，并传承独特传统。"
+
+#: templates/index.html:115
+msgid ""
+"Han Tandyr — сеть пекарен в Астане, специализирующаяся на халяльной "
+"выпечке: тандырной самсе, лепешках и мантам. В настоящее время у компании"
+" 5 точек сбыта и собственный производственный цех."
+msgstr "Han Tandyr 是阿斯塔纳的一家面包店连锁，专注于清真烘焙——包括炖炉烤馅饼、薄饼和饺子。公司目前拥有 5 个销售点及自有生产车间。"
+
+#: templates/index.html:120
+msgid ""
+"Руководство ставит цель вывести бренд на международный уровень через "
+"франчайзинг, начиная с Дубая и Гонконга в 2025 году. Наша миссия — "
+"распространять вкус традиционной выпечки, объединяя людей и поддерживая "
+"высокие стандарты качества."
+msgstr "管理层计划从 2025 年开始，通过加盟模式将品牌推向国际市场，首选迪拜和香港。我们的使命是传播传统烘焙美味，汇聚人群，并维持高质量标准。"
+
+#: templates/index.html:130
+msgid "Условия франшизы"
+msgstr "加盟条件"
+
+#: templates/index.html:132
+msgid "Дубай:"
+msgstr "迪拜："
+
+#: templates/index.html:132
+msgid "Гонконг:"
+msgstr "香港："
+
+#: templates/index.html:132
+msgid "за франшизу."
+msgstr "加盟费用。"
+
+#: templates/index.html:135
+msgid "Обучение специалистов"
+msgstr "专业培训"
+
+#: templates/index.html:136
+msgid "Маркетинговая поддержка, маскот, адаптивная реклама"
+msgstr "市场支持、吉祥物、定制广告"
+
+#: templates/index.html:137
+msgid "Помощь в открытии (поиск места, установка оборудования и т.д.)"
+msgstr "开店协助（寻找店面、安装设备等）"
+
+#: templates/index.html:138
+msgid "Создание меню и «конституции» франшизы"
+msgstr "制定菜单及加盟章程"
+
+#: templates/index.html:139
+msgid "Постоянная онлайн и офлайн консультация"
+msgstr "持续的线上与线下咨询"
+
+#: templates/index.html:150
+msgid "Имя"
+msgstr "名字"
+
+#: templates/index.html:154
+msgid "Фамилия"
+msgstr "姓氏"
+
+#: templates/index.html:158
+msgid "Номер телефона"
+msgstr "电话号码"
+
+#: templates/index.html:165
+msgid "E-mail"
+msgstr "电子邮箱"
+
+#: templates/index.html:169
+msgid "Telegram (опционально)"
+msgstr "Telegram（可选）"
+
+#: templates/index.html:173
+msgid "Дополнительные комментарии"
+msgstr "附加评论"
+
+#: templates/index.html:178
+msgid "Я согласен(на) с политикой приватности"
+msgstr "我同意隐私政策"
+
+#: templates/index.html:180
+msgid "Отправить"
+msgstr "发送"
+
+#: templates/menu.html:5 templates/menu.html:30
+msgid "Han Tandyr Menu"
+msgstr "Han Tandyr 菜单"
+
+#: templates/menu.html:15
+msgid "Home"
+msgstr "首页"

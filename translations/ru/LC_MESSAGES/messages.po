@@ -1,0 +1,199 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-02-25 01:54+0500\n"
+"PO-Revision-Date: 2025-02-25 01:54+0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: templates/index.html:5
+msgid "Франшиза Han Tandyr"
+msgstr "Франшиза Han Tandyr"
+
+#: templates/index.html:14
+msgid "Menu"
+msgstr "Меню"
+
+#: templates/index.html:37
+msgid "Логотип Han Tandyr"
+msgstr "Логотип Han Tandyr"
+
+#: templates/index.html:41
+msgid "Франшиза"
+msgstr "Франшиза"
+
+#: templates/index.html:41
+msgid "Han Tandyr"
+msgstr "Han Tandyr"
+
+#: templates/index.html:44
+msgid "Откройте свою пекарню по франшизе и зарабатывайте от $36,000 в год"
+msgstr "Откройте свою пекарню по франшизе и зарабатывайте от $36,000 в год"
+
+#: templates/index.html:46 templates/index.html:147
+msgid "Оставить заявку"
+msgstr "Оставить заявку"
+
+#: templates/index.html:64
+msgid "Han Tandyr в цифрах:"
+msgstr "Han Tandyr в цифрах:"
+
+#: templates/index.html:67
+msgid "Карта Han Tandyr"
+msgstr "Карта Han Tandyr"
+
+#: templates/index.html:72
+msgid "Иконка точек сбыта"
+msgstr "Иконка точек сбыта"
+
+#: templates/index.html:74
+msgid "Точек сбыта"
+msgstr "Точек сбыта"
+
+#: templates/index.html:78
+msgid "Иконка оборота"
+msgstr "Иконка оборота"
+
+#: templates/index.html:80
+msgid "Годовой оборот (USD)"
+msgstr "Годовой оборот (USD)"
+
+#: templates/index.html:84
+msgid "Иконка производства"
+msgstr "Иконка производства"
+
+#: templates/index.html:85
+msgid "Есть"
+msgstr "Есть"
+
+#: templates/index.html:86
+msgid "Собственное производство"
+msgstr "Собственное производство"
+
+#: templates/index.html:90
+msgid "Иконка халяль"
+msgstr "Иконка халяль"
+
+#: templates/index.html:91
+msgid "Халяль"
+msgstr "Халяль"
+
+#: templates/index.html:92
+msgid "Продукция"
+msgstr "Продукция"
+
+#: templates/index.html:108
+msgid "Наша миссия"
+msgstr "Наша миссия"
+
+#: templates/index.html:110
+msgid ""
+"Мы стремимся сделать Han Tandyr синонимом качественной халяльной выпечки,"
+" объединяя людей за столом и сохраняя уникальные традиции."
+msgstr ""
+"Мы стремимся сделать Han Tandyr синонимом качественной халяльной выпечки, "
+"объединяя людей за столом и сохраняя уникальные традиции."
+
+#: templates/index.html:115
+msgid ""
+"Han Tandyr — сеть пекарен в Астане, специализирующаяся на халяльной "
+"выпечке: тандырной самсе, лепешках и мантам. В настоящее время у компании"
+" 5 точек сбыта и собственный производственный цех."
+msgstr ""
+"Han Tandyr — сеть пекарен в Астане, специализирующаяся на халяльной выпечке: "
+"тандырной самсе, лепешках и мантам. В настоящее время у компании 5 точек сбыта и "
+"собственное производство."
+
+#: templates/index.html:120
+msgid ""
+"Руководство ставит цель вывести бренд на международный уровень через "
+"франчайзинг, начиная с Дубая и Гонконга в 2025 году. Наша миссия — "
+"распространять вкус традиционной выпечки, объединяя людей и поддерживая "
+"высокие стандарты качества."
+msgstr ""
+"Руководство ставит цель вывести бренд на международный уровень через франчайзинг, "
+"начиная с Дубая и Гонконга в 2025 году. Наша миссия — распространять вкус традиционной "
+"выпечки, объединяя людей и поддерживая высокие стандарты качества."
+
+#: templates/index.html:130
+msgid "Условия франшизы"
+msgstr "Условия франшизы"
+
+#: templates/index.html:132
+msgid "Дубай:"
+msgstr "Дубай:"
+
+#: templates/index.html:132
+msgid "Гонконг:"
+msgstr "Гонконг:"
+
+#: templates/index.html:132
+msgid "за франшизу."
+msgstr "за франшизу."
+
+#: templates/index.html:135
+msgid "Обучение специалистов"
+msgstr "Обучение специалистов"
+
+#: templates/index.html:136
+msgid "Маркетинговая поддержка, маскот, адаптивная реклама"
+msgstr "Маркетинговая поддержка, маскот, адаптивная реклама"
+
+#: templates/index.html:137
+msgid "Помощь в открытии (поиск места, установка оборудования и т.д.)"
+msgstr "Помощь в открытии (поиск места, установка оборудования и т.д.)"
+
+#: templates/index.html:138
+msgid "Создание меню и «конституции» франшизы"
+msgstr "Создание меню и «конституции» франшизы"
+
+#: templates/index.html:139
+msgid "Постоянная онлайн и офлайн консультация"
+msgstr "Постоянная онлайн и офлайн консультация"
+
+#: templates/index.html:150
+msgid "Имя"
+msgstr "Имя"
+
+#: templates/index.html:154
+msgid "Фамилия"
+msgstr "Фамилия"
+
+#: templates/index.html:158
+msgid "Номер телефона"
+msgstr "Номер телефона"
+
+#: templates/index.html:165
+msgid "E-mail"
+msgstr "E-mail"
+
+#: templates/index.html:169
+msgid "Telegram (опционально)"
+msgstr "Telegram (опционально)"
+
+#: templates/index.html:173
+msgid "Дополнительные комментарии"
+msgstr "Дополнительные комментарии"
+
+#: templates/index.html:178
+msgid "Я согласен(на) с политикой приватности"
+msgstr "Я согласен(на) с политикой приватности"
+
+#: templates/index.html:180
+msgid "Отправить"
+msgstr "Отправить"
+
+#: templates/menu.html:5 templates/menu.html:30
+msgid "Han Tandyr Menu"
+msgstr "Меню Han Tandyr"
+
+#: templates/menu.html:15
+msgid "Home"
+msgstr "Главная"

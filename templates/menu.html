@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="{{ get_locale() }}">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ _('Han Tandyr Menu') }}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <!-- Шапка сайта -->
+  <div class="top-header">
+    <!-- Левая часть: ссылка на главную -->
+    <div class="header-left">
+      <a href="{{ url_for('index') }}">{{ _('Home') }}</a>
+    </div>
+    <!-- Справа: переключатель языков -->
+    <div class="language-switcher">
+      <a href="?lang=ru" class="{% if get_locale() == 'ru' %}active{% endif %}">RU</a>
+      <a href="?lang=en" class="{% if get_locale() == 'en' %}active{% endif %}">EN</a>
+      <a href="?lang=kk" class="{% if get_locale() == 'kk' %}active{% endif %}">KZ</a>
+      <a href="?lang=zh" class="{% if get_locale() == 'zh' %}active{% endif %}">ZH</a>
+      <a href="?lang=ar" class="{% if get_locale() == 'ar' %}active{% endif %}">AR</a>
+    </div>
+  </div>
+
+  <!-- Основной блок меню -->
+  <section class="menu-section">
+    <div class="menu-content">
+      <h2>{{ _('Han Tandyr Menu') }}</h2>
+
+      <!-- В зависимости от выбранного языка подставляем разную картинку -->
+      {% if get_locale() == 'ru' %}
+        <img src="{{ url_for('static', filename='imgs/menu_ru.png') }}" alt="Menu RU" class="menu-image">
+      {% elif get_locale() == 'en' %}
+        <img src="{{ url_for('static', filename='imgs/menu_en.png') }}" alt="Menu EN" class="menu-image">
+      {% elif get_locale() == 'kk' %}
+        <img src="{{ url_for('static', filename='imgs/menu_kk.png') }}" alt="Menu KZ" class="menu-image">
+      {% elif get_locale() == 'zh' %}
+        <img src="{{ url_for('static', filename='imgs/menu_zh.png') }}" alt="Menu ZH" class="menu-image">
+      {% elif get_locale() == 'ar' %}
+        <img src="{{ url_for('static', filename='imgs/menu_ar.png') }}" alt="Menu AR" class="menu-image">
+      {% else %}
+        <img src="{{ url_for('static', filename='imgs/menu_ru.png') }}" alt="Menu Default" class="menu-image">
+      {% endif %}
+    </div>
+  </section>
+
+</body>
+</html>

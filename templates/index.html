@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="{{ get_locale() }}" dir="{% if get_locale() == 'ar' %}rtl{% else %}ltr{% endif %}">
+
+<head>
+  <meta charset="UTF-8">
+  <title>{{ _('Франшиза Han Tandyr') }}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <!-- Top header: Ссылка на меню слева, переключатель языков справа -->
+  <div class="top-header">
+    <div class="header-left">
+      <a href="{{ url_for('menu') }}">{{ _('Menu') }}</a>
+    </div>
+    <div class="language-switcher">
+      <a href="?lang=ru" class="{% if get_locale() == 'ru' %}active{% endif %}">RU</a>
+      <a href="?lang=en" class="{% if get_locale() == 'en' %}active{% endif %}">EN</a>
+      <a href="?lang=kk" class="{% if get_locale() == 'kk' %}active{% endif %}">KZ</a>
+      <a href="?lang=zh" class="{% if get_locale() == 'zh' %}active{% endif %}">ZH</a>
+      <a href="?lang=ar" class="{% if get_locale() == 'ar' %}active{% endif %}">AR</a>
+    </div>
+  </div>
+
+  <!-- Hero-секция -->
+  <section class="hero">
+    <div class="decorations">
+      <img src="{{ url_for('static', filename='imgs/tandyr.png') }}" alt="" class="decorative-item deco-1">
+      <img src="{{ url_for('static', filename='imgs/cup.png') }}" alt="" class="decorative-item deco-2">
+      <img src="{{ url_for('static', filename='imgs/uzor.png') }}" alt="" class="decorative-item deco-3">
+      <img src="{{ url_for('static', filename='imgs/lagman.png') }}" alt="" class="decorative-item deco-4">
+      <img src="{{ url_for('static', filename='imgs/plov.png') }}" alt="" class="decorative-item deco-5">
+    </div>
+
+    <div class="hero-container">
+      <img src="{{ url_for('static', filename='imgs/han.png') }}"
+           alt="{{ _('Логотип Han Tandyr') }}"
+           class="hero-logo">
+      <div class="hero-text">
+        <h1>
+          {{ _('Франшиза') }} <span class="brand-highlight">{{ _('Han Tandyr') }}</span>
+        </h1>
+        <p>
+          {{ _('Откройте свою пекарню по франшизе и зарабатывайте от $36,000 в год') }}
+        </p>
+        <a href="#apply" class="cta-button">{{ _('Оставить заявку') }}</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <a href="#numbers" class="down-arrow">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2"
+             stroke-linecap="round" stroke-linejoin="round">
+          <line x1="12" y1="5" x2="12" y2="19"></line>
+          <polyline points="19 12 12 19 5 12"></polyline>
+        </svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- Секция "Han Tandyr в цифрах" -->
+  <section class="numbers-section" id="numbers">
+    <div class="section-content">
+      <h2 class="numbers-title">{{ _('Han Tandyr в цифрах:') }}</h2>
+      <div class="map-container">
+        <img src="{{ url_for('static', filename='imgs/franch1.svg') }}"
+             alt="{{ _('Карта Han Tandyr') }}" class="map-image">
+      </div>
+      <ul class="stats-list">
+        <li class="stat-item">
+          <img src="{{ url_for('static', filename='imgs/shop.png') }}"
+               alt="{{ _('Иконка точек сбыта') }}" class="stat-icon">
+          <p class="stat-value">5</p>
+          <p class="stat-label">{{ _('Точек сбыта') }}</p>
+        </li>
+        <li class="stat-item">
+          <img src="{{ url_for('static', filename='imgs/money.png') }}"
+               alt="{{ _('Иконка оборота') }}" class="stat-icon">
+          <p class="stat-value">$1M</p>
+          <p class="stat-label">{{ _('Годовой оборот (USD)') }}</p>
+        </li>
+        <li class="stat-item">
+          <img src="{{ url_for('static', filename='imgs/bread.png') }}"
+               alt="{{ _('Иконка производства') }}" class="stat-icon">
+          <p class="stat-value">{{ _('Есть') }}</p>
+          <p class="stat-label">{{ _('Собственное производство') }}</p>
+        </li>
+        <li class="stat-item">
+          <img src="{{ url_for('static', filename='imgs/halal.png') }}"
+               alt="{{ _('Иконка халяль') }}" class="stat-icon">
+          <p class="stat-value">{{ _('Халяль') }}</p>
+          <p class="stat-label">{{ _('Продукция') }}</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Секция "Наша миссия" -->
+  <section class="mission-section" id="mission">
+    <div class="decorations">
+      <img src="{{ url_for('static', filename='imgs/tandyr.png') }}" alt="" class="decorative-item deco-1">
+      <img src="{{ url_for('static', filename='imgs/cup.png') }}" alt="" class="decorative-item deco-2">
+      <img src="{{ url_for('static', filename='imgs/uzor.png') }}" alt="" class="decorative-item deco-3">
+      <img src="{{ url_for('static', filename='imgs/lagman.png') }}" alt="" class="decorative-item deco-4">
+      <img src="{{ url_for('static', filename='imgs/plov.png') }}" alt="" class="decorative-item deco-5">
+    </div>
+    <div class="mission-content">
+      <h2 class="mission-title">{{ _('Наша миссия') }}</h2>
+      <p class="mission-subtitle">
+        {{ _('Мы стремимся сделать Han Tandyr синонимом качественной халяльной выпечки, объединяя людей за столом и сохраняя уникальные традиции.') }}
+      </p>
+      <div class="mission-text-row">
+        <div class="mission-text-block">
+          <p>
+            {{ _('Han Tandyr — сеть пекарен в Астане, специализирующаяся на халяльной выпечке: тандырной самсе, лепешках и мантам. В настоящее время у компании 5 точек сбыта и собственный производственный цех.') }}
+          </p>
+        </div>
+        <div class="mission-text-block">
+          <p>
+            {{ _('Руководство ставит цель вывести бренд на международный уровень через франчайзинг, начиная с Дубая и Гонконга в 2025 году. Наша миссия — распространять вкус традиционной выпечки, объединяя людей и поддерживая высокие стандарты качества.') }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Секция "Условия франшизы" -->
+  <section class="franchise-offer" id="franchise-offer">
+    <div class="section-content">
+      <h2>{{ _('Условия франшизы') }}</h2>
+      <p>
+        {{ _('Дубай:') }} <strong>$55,000</strong>, {{ _('Гонконг:') }} <strong>$50,000</strong> {{ _('за франшизу.') }}
+      </p>
+      <ul class="offer-list">
+        <li>{{ _('Обучение специалистов') }}</li>
+        <li>{{ _('Маркетинговая поддержка, маскот, адаптивная реклама') }}</li>
+        <li>{{ _('Помощь в открытии (поиск места, установка оборудования и т.д.)') }}</li>
+        <li>{{ _('Создание меню и «конституции» франшизы') }}</li>
+        <li>{{ _('Постоянная онлайн и офлайн консультация') }}</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Секция с формой -->
+  <section class="form-section" id="apply">
+    <div class="section-content">
+      <h2>{{ _('Оставить заявку') }}</h2>
+      <form method="POST" action="{{ url_for('apply') }}">
+        <div class="form-group">
+          <label for="firstname">{{ _('Имя') }}</label>
+          <input type="text" id="firstname" name="firstname" required>
+        </div>
+        <div class="form-group">
+          <label for="lastname">{{ _('Фамилия') }}</label>
+          <input type="text" id="lastname" name="lastname" required>
+        </div>
+        <div class="form-group phone-group">
+          <label for="phone_main">{{ _('Номер телефона') }}</label>
+          <div class="phone-input-wrapper">
+            <input type="text" id="phone_prefix" name="phone_prefix" class="phone-prefix" readonly value="+1">
+            <input type="tel" id="phone_main" name="phone_main" class="phone-main" pattern="[0-9]{7,15}" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">{{ _('E-mail') }}</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="telegram">{{ _('Telegram (опционально)') }}</label>
+          <input type="text" id="telegram" name="telegram">
+        </div>
+        <div class="form-group">
+          <label for="comment">{{ _('Дополнительные комментарии') }}</label>
+          <textarea id="comment" name="comment" rows="4"></textarea>
+        </div>
+        <div class="form-group checkbox-group">
+          <input type="checkbox" id="privacy" name="privacy" required>
+          <label for="privacy">{{ _('Я согласен(на) с политикой приватности') }}</label>
+        </div>
+        <button type="submit">{{ _('Отправить') }}</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Скрипт для подстановки телефонного кода -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const lang = urlParams.get('lang') || 'ru';
+      let prefix = '+7';
+      switch(lang) {
+        case 'en':
+          prefix = '+1';
+          break;
+        case 'kk':
+          prefix = '+7';
+          break;
+        case 'zh':
+          prefix = '+86';
+          break;
+        case 'ar':
+          prefix = '+971';
+          break;
+        default:
+          prefix = '+7';
+      }
+      const prefixField = document.getElementById('phone_prefix');
+      if (prefixField) {
+        prefixField.value = prefix;
+      }
+    });
+  </script>
+</body>
+</html>
